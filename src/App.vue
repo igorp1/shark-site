@@ -21,7 +21,18 @@ body {
     padding: 0em;
 }
 
-@media (max-width:767px){
-   .pure-hidden-phone{display:none}
+@media (min-width:767px){
+    .pure-visible-phone{display:none}
+    .pure-visible-tablet{display:none}
+    .pure-hidden-desktop{display:none}
 }
+@media (max-width:767px){
+    .pure-hidden-phone{display:none}
+    .pure-visible-desktop{display:none}
+}
+@media (min-width:768px) and (max-width:979px){
+    .pure-hidden-tablet{display:none}
+    .pure-visible-desktop{display:none}
+}
+
 </style>
